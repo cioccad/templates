@@ -1,0 +1,4 @@
+#+TITLE: NOTE TITLE
+#+AUTHOR: Denis Ciocca
+#+EMAIL: denis.ciocca AT gmail.com
+#+OPTIONS: toc:nil

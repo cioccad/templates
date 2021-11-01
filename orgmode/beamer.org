@@ -1,0 +1,19 @@
+#+options: H:2 email:nil tex:t toc:nil ^:nil
+#+title: TITLE
+#+date: \today
+#+author: Denis Ciocca
+#+email: denis.ciocca AT gmail.com
+#+language: en
+#+creator: Denis Ciocca
+#+startup: beamer
+
+#+beamer_theme: Berlin
+#+latex_class: beamer
+#+latex_class_options: [aspectratio=169,10pt]
+#+latex_header:
+#+latex_header_extra:
+#+description:
+#+keywords:
+#+subtitle: SUBTITLE
+#+latex_compiler: pdflatex
+#+columns: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
