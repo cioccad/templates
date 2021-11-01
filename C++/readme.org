@@ -24,3 +24,11 @@ cmake -DCMAKE_BUILD_TYPE=Debug ../
 mkdir buildDebug && cd buildDebug
 cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ../
 #+end_src
+
+** cross-compile
+
+#+begin_src sh
+mkdir buildArm64Debug && cd buildArm64Debug
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+      -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchain-arm64.cmake ../
+#+end_src
