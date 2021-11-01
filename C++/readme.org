@@ -1,0 +1,26 @@
+#+TITLE: C++ project notes
+#+AUTHOR: Denis Ciocca
+#+EMAIL: denis.ciocca AT gmail.com
+#+OPTIONS: toc:nil
+
+* compile with cmake
+** release build
+
+#+begin_src sh
+mkdir buildRelease && cd buildRelease
+cmake -DCMAKE_BUILD_TYPE=Release ../
+#+end_src
+
+** debug build
+
+#+begin_src sh
+mkdir buildDebug && cd buildDebug
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+#+end_src
+
+** export compile commands
+
+#+begin_src sh
+mkdir buildDebug && cd buildDebug
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ../
+#+end_src
